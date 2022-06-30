@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
-        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -67,10 +66,13 @@
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ClothyLogo" translatesAutoresizingMaskIntoConstraints="NO" id="8kk-Cq-CuR">
                                 <rect key="frame" x="74" y="136" width="266" height="142"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.93651753664016724" green="0.91290891170501709" blue="0.7180594801902771" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="tintColor" red="0.93651753664016724" green="0.91290891170501709" blue="0.7180594801902771" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" red="0.93651753664016724" green="0.91290891170501709" blue="0.7180594801902771" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="tintColor" red="0.93651753664016724" green="0.91290891170501709" blue="0.7180594801902771" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <navigationItem key="navigationItem" id="kvS-GI-gD4"/>
                 </viewController>
@@ -109,7 +111,7 @@
                             </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="8Vh-sS-ah9"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" red="0.93651753664016724" green="0.91290891170501709" blue="0.7180594801902771" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <navigationItem key="navigationItem" id="Afu-fV-b9d"/>
                 </viewController>
@@ -233,7 +235,7 @@
                             </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="nZX-eL-fLZ"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" red="0.93651753664016724" green="0.91290891170501709" blue="0.7180594801902771" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <navigationItem key="navigationItem" id="WF5-uN-fo7"/>
                 </viewController>
@@ -272,7 +274,7 @@
                             </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="mbs-qq-qpy"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" red="0.93651753664016724" green="0.91290891170501709" blue="0.7180594801902771" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <navigationItem key="navigationItem" id="XlO-Bc-y1l"/>
                 </viewController>
@@ -311,7 +313,7 @@
                             </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="F0J-Am-7QZ"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" red="0.93651753664016724" green="0.91290891170501709" blue="0.7180594801902771" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <navigationItem key="navigationItem" id="bbr-bq-fBt"/>
                 </viewController>
@@ -321,14 +323,11 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="1sy-Ug-SXR"/>
+        <segue reference="lgC-Pn-rdr"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="ClothyLogo" width="512" height="279"/>
         <image name="Sustainability" width="1024" height="683"/>
         <image name="houseIcon2" width="840" height="880"/>
-        <systemColor name="systemBackgroundColor">
-            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
     </resources>
 </document>
